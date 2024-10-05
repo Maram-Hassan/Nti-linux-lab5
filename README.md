@@ -1,33 +1,48 @@
 # Nti-linux-lab5
 1.	Attempt to run the command gnuplot. You should find that it is not installed.
+![Screenshot from 2024-10-05 10-59-33](https://github.com/user-attachments/assets/8627d0ae-d4f6-473e-8ec1-64a3652b9bd6)
 
 2.	Using yum, Search for the plotting packages.
+![Screenshot from 2024-10-05 10-59-37](https://github.com/user-attachments/assets/c822b67d-7d93-41ea-be85-b9a2dea83ac6)
 
 3.	Find out more information about the gnuplot package.
+![Screenshot from 2024-10-05 11-00-27](https://github.com/user-attachments/assets/68443114-0935-4fe2-ba6f-7718be4fe1b0)
 
 4.	Install the gnuplot package.
+![Screenshot from 2024-10-05 11-01-12](https://github.com/user-attachments/assets/c0598a2f-9aa5-44ed-9033-51d0a2efb909)
 
 5.	Attempt to remove the gnuplot package, but say no
+![Screenshot from 2024-10-05 12-17-26](https://github.com/user-attachments/assets/90fbcbd1-cb90-4f71-ad1b-de3a7d9d7e80)
 
 6.	How many packages would be removed
-
+```
+7
+```
 7.	Attempt to remove the gnuplot-common package but say no
+![Screenshot from 2024-10-05 12-21-58](https://github.com/user-attachments/assets/90eaace9-0d17-4765-9863-c94af7139111)
 
 8.	How many packages would be removed
 
 9.	Create the file /etc/yum.repos.d/cdrom.repo to enable install from the iso of Red Hat
+![Screenshot from 2024-10-05 12-25-56](https://github.com/user-attachments/assets/4abfe8d2-7163-4874-af9a-c3ff0a205ee5)
 
 10.	Using rpm, List all installed packages in your system.
+![Screenshot from 2024-10-05 12-25-18](https://github.com/user-attachments/assets/f5af5865-a949-4671-93ef-718aa286a3e5)
 
 11.	 View the files in the initscripts package
 
 12.	Get general information about bash rpm.
+![Screenshot from 2024-10-05 12-32-45](https://github.com/user-attachments/assets/0a6203dc-d9e2-4606-af52-7e90a3629667)
 
 13.	Which installed packages have gnome in their names?
+![Screenshot from 2024-10-05 12-33-20](https://github.com/user-attachments/assets/40431d07-df42-4809-a996-1f4e2bfbebbe)
 
 14.	You want to know some information about the status of the system every ten minutes today between the hours of  8:00 AM and 5:00 PM. to help investigate some performance issues you have been having. You suspect it might be memory related and want to keep an eye on those resources.
+![Screenshot from 2024-10-05 12-35-05](https://github.com/user-attachments/assets/9a926903-4dfc-43ea-9470-d83eedc028c7)
+![Screenshot from 2024-10-05 12-35-38](https://github.com/user-attachments/assets/c4bbcd5a-f5b5-45f8-9da6-267bd8a52ee6)
 
 15.	Use fdisk -l to locate information about the partition sizes.
+![Screenshot from 2024-10-05 12-36-20](https://github.com/user-attachments/assets/8411140a-eb71-4b1c-ac2c-032ff539632b)
 
 16.	Use fdisk to add a new logical partition that is 1GB in size.
 
@@ -79,7 +94,6 @@
 
 40.	If you run vgdisplay again, there now should be free extents (provided by the new physical volumes) in the test0 volume group. Extend the docs LV and underlying filesystem to make use of all of the free extents of the test0 volume group. Verify your actions.
 
-41.	
 
 
 
